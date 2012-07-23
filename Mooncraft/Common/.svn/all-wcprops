@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/116/trunk/Mooncraft/Mooncraft/Common
+END
+Utilities.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2/trunk/Mooncraft/Mooncraft/Common/Utilities.h
+END
+Interpolator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/98/trunk/Mooncraft/Mooncraft/Common/Interpolator.cpp
+END
+Interpolator.inl
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/116/trunk/Mooncraft/Mooncraft/Common/Interpolator.inl
+END
+Interpolator.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/116/trunk/Mooncraft/Mooncraft/Common/Interpolator.h
+END
+Types.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/2/trunk/Mooncraft/Mooncraft/Common/Types.h
+END

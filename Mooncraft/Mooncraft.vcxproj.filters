@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{ecbfd7e0-6903-4f81-98c4-704697d738cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Phy">
+      <UniqueIdentifier>{2608c847-7d55-4627-97f7-5f5a074ac99d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Phy\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>
+      </Extensions>
+    </Filter>
+    <Filter Include="Phy\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>
+      </Extensions>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{0ce13548-ccce-4489-a123-6f65aaf17a71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{6f9b0889-ed55-4a5a-9e47-e78be4ad7691}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{35e993e4-c80c-4f99-8e93-e04b77731608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Client">
+      <UniqueIdentifier>{ce44c1bb-965e-4b77-971e-6a6100314ad6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Server">
+      <UniqueIdentifier>{77239ac5-0017-4c43-ae70-a766953a1310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Common">
+      <UniqueIdentifier>{c436dabe-03fd-486c-a653-c0c066a8973f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{fccc3691-aaac-486c-a9db-f814bee5dde3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FSM">
+      <UniqueIdentifier>{43189bb1-e4a7-46fe-a98c-fc5c0869732a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{6ecb8ee2-715b-46bb-be20-6df587ccaca0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Phy\Engine2D.cpp">
+      <Filter>Phy\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Phy\ParticleEngine2D.cpp">
+      <Filter>Phy\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Phy\RigidBody2d.cpp">
+      <Filter>Phy\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Polygon2.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector2.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Server\Server.cpp">
+      <Filter>Network\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Client\Client.cpp">
+      <Filter>Network\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Phy\RigidBodyWorld.cpp">
+      <Filter>Phy\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Phy\RigidBodyEngine.cpp">
+      <Filter>Phy\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Phy\RigidBodyContact.cpp">
+      <Filter>Phy\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Phy\RBWorldInterface.cpp">
+      <Filter>Phy\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FSM\FSM.cpp">
+      <Filter>FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="FSM\State.cpp">
+      <Filter>FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Common\Packet.cpp">
+      <Filter>Network\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GameClient.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Player.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Projectile.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\InputMgr.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\Interpolator.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Phy\Particle.inl">
+      <Filter>Phy\Header Files</Filter>
+    </None>
+    <None Include="Phy\ParticleContact.inl">
+      <Filter>Phy\Header Files</Filter>
+    </None>
+    <None Include="Phy\ParticleEngine2D.inl">
+      <Filter>Phy\Header Files</Filter>
+    </None>
+    <None Include="Phy\ParticleRod.inl">
+      <Filter>Phy\Header Files</Filter>
+    </None>
+    <None Include="Phy\ParticleRope.inl">
+      <Filter>Phy\Header Files</Filter>
+    </None>
+    <None Include="Phy\ParticleSpringFG.inl">
+      <Filter>Phy\Header Files</Filter>
+    </None>
+    <None Include="Phy\ParticleWorld.inl">
+      <Filter>Phy\Header Files</Filter>
+    </None>
+    <None Include="Phy\RigidBody2d.inl">
+      <Filter>Phy\Header Files</Filter>
+    </None>
+    <None Include="Math\Matrix.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="Math\Polygon2.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="Math\Quaternion.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="Math\Vector2.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="Math\Vector3.inl">
+      <Filter>Math</Filter>
+    </None>
+    <None Include="Game\Game.inl">
+      <Filter>Game</Filter>
+    </None>
+    <None Include="Game\Player.inl">
+      <Filter>Game</Filter>
+    </None>
+    <None Include="Game\Projectile.inl">
+      <Filter>Game</Filter>
+    </None>
+    <None Include="Network\Server\Server.inl">
+      <Filter>Network\Server</Filter>
+    </None>
+    <None Include="Input\InputMgr.inl">
+      <Filter>Input</Filter>
+    </None>
+    <None Include="Common\Interpolator.inl">
+      <Filter>Common</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Phy\Engine2D.h">
+      <Filter>Phy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Phy\Engine2DCollisionTypes.h">
+      <Filter>Phy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Phy\Engine2DIntegrationTypes.h">
+      <Filter>Phy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Phy\Engine3DTypes.h">
+      <Filter>Phy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Phy\EngineBase.h">
+      <Filter>Phy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Phy\EngineBaseTypes.h">
+      <Filter>Phy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Phy\Particle.h">
+      <Filter>Phy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Phy\ParticleContact.h">
+      <Filter>Phy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Phy\ParticleContact2D.h">
+      <Filter>Phy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Phy\ParticleDragFG.h">
+      <Filter>Phy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Phy\ParticleEngine2D.h">
+      <Filter>Phy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Phy\ParticleForceGenerator.h">
+      <Filter>Phy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Phy\ParticleForceRegistry.h">
+      <Filter>Phy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Phy\ParticleGravityFG.h">
+      <Filter>Phy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Phy\ParticleLink.h">
+      <Filter>Phy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Phy\ParticleRod.h">
+      <Filter>Phy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Phy\ParticleRope.h">
+      <Filter>Phy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Phy\ParticleSpringFG.h">
+      <Filter>Phy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Phy\ParticleWindFG.h">
+      <Filter>Phy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Phy\ParticleWorld.h">
+      <Filter>Phy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Phy\PhyMathUtils.h">
+      <Filter>Phy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Phy\RBContact2D.h">
+      <Filter>Phy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Phy\RBContact3D.h">
+      <Filter>Phy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Phy\RBForceGenerator.h">
+      <Filter>Phy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Phy\RigidBody2d.h">
+      <Filter>Phy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Phy\RigidBody3d.h">
+      <Filter>Phy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Phy\WorldBase.h">
+      <Filter>Phy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Circle2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Geom2DUtils.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\MathTypes.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\MathUtils.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Matrix.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Plane.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Polygon2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Primitives2D.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Primitives3D.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Quaternion.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Types.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Utilities.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Server\Server.h">
+      <Filter>Network\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Client\Client.h">
+      <Filter>Network\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Common\NetworkUtils.h">
+      <Filter>Network\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Phy\RigidBodyWorld.h">
+      <Filter>Phy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Phy\RigidBodyContact.h">
+      <Filter>Phy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Phy\RigidBodyEngine.h">
+      <Filter>Phy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Phy\RBWorldInterface.h">
+      <Filter>Phy\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FSM\FSM.h">
+      <Filter>FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="FSM\State.h">
+      <Filter>FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Player.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Projectile.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Common\Packet.h">
+      <Filter>Network\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GameClient.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\InputMgr.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\Interpolator.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

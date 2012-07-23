@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/Mooncraft/Mooncraft/Math
+END
+Geom2DUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2/trunk/Mooncraft/Mooncraft/Math/Geom2DUtils.h
+END
+Matrix.inl
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/2/trunk/Mooncraft/Mooncraft/Math/Matrix.inl
+END
+Plane.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2/trunk/Mooncraft/Mooncraft/Math/Plane.h
+END
+Matrix.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/Mooncraft/Mooncraft/Math/Matrix.h
+END
+Polygon2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2/trunk/Mooncraft/Mooncraft/Math/Polygon2.cpp
+END
+Polygon2.inl
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2/trunk/Mooncraft/Mooncraft/Math/Polygon2.inl
+END
+Polygon2.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/2/trunk/Mooncraft/Mooncraft/Math/Polygon2.h
+END
+MathUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2/trunk/Mooncraft/Mooncraft/Math/MathUtils.h
+END
+MathTypes.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2/trunk/Mooncraft/Mooncraft/Math/MathTypes.h
+END
+Vector2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2/trunk/Mooncraft/Mooncraft/Math/Vector2.cpp
+END
+Vector2.inl
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2/trunk/Mooncraft/Mooncraft/Math/Vector2.inl
+END
+Quaternion.inl
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2/trunk/Mooncraft/Mooncraft/Math/Quaternion.inl
+END
+Vector3.inl
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2/trunk/Mooncraft/Mooncraft/Math/Vector3.inl
+END
+Vector3.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2/trunk/Mooncraft/Mooncraft/Math/Vector3.cpp
+END
+Primitives2D.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2/trunk/Mooncraft/Mooncraft/Math/Primitives2D.h
+END
+Primitives3D.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2/trunk/Mooncraft/Mooncraft/Math/Primitives3D.h
+END
+Circle2.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/2/trunk/Mooncraft/Mooncraft/Math/Circle2.h
+END
+Vector2.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/2/trunk/Mooncraft/Mooncraft/Math/Vector2.h
+END
+Quaternion.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2/trunk/Mooncraft/Mooncraft/Math/Quaternion.h
+END
+Vector3.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/2/trunk/Mooncraft/Mooncraft/Math/Vector3.h
+END

@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BEB2AD89-6DAA-4088-9F19-5879434C4C33}</ProjectGuid>
+    <RootNamespace>Mooncraft</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(SFML_HOME)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(RAKNET_HOME)\Lib;$(SFML_HOME)\lib\vc2010;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(RAKNET_HOME)\Source;./;(SFML_HOME)include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>RakNetLibStaticDebug.lib;sfml-system-s-d.lib;sfml-window-s-d.lib;sfml-system-s-d.lib;sfml-graphics-s-d.lib;sfml-main-d.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SFML_HOME)\lib\vc2010;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>C:\Users\Alfy\Desktop\mooncraft\Mooncraft\Mooncraft\SFML-1.6\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\Users\Alfy\Desktop\mooncraft\Mooncraft\Mooncraft\SFML-1.6\lib\vc2010;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-system-s.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Common\Interpolator.cpp" />
+    <ClCompile Include="FSM\State.cpp" />
+    <ClCompile Include="FSM\FSM.cpp" />
+    <ClCompile Include="Game\Game.cpp" />
+    <ClCompile Include="Game\GameClient.cpp" />
+    <ClCompile Include="Game\Player.cpp" />
+    <ClCompile Include="Game\Projectile.cpp" />
+    <ClCompile Include="Input\InputMgr.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Math\Polygon2.cpp" />
+    <ClCompile Include="Math\Vector2.cpp" />
+    <ClCompile Include="Math\Vector3.cpp" />
+    <ClCompile Include="Network\Client\Client.cpp" />
+    <ClCompile Include="Network\Common\Packet.cpp" />
+    <ClCompile Include="Network\Server\Server.cpp" />
+    <ClCompile Include="Phy\Engine2D.cpp" />
+    <ClCompile Include="Phy\ParticleEngine2D.cpp" />
+    <ClCompile Include="Phy\RBWorldInterface.cpp" />
+    <ClCompile Include="Phy\RigidBody2d.cpp" />
+    <ClCompile Include="Phy\RigidBodyContact.cpp" />
+    <ClCompile Include="Phy\RigidBodyEngine.cpp" />
+    <ClCompile Include="Phy\RigidBodyWorld.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Common\Interpolator.inl" />
+    <None Include="Game\Game.inl" />
+    <None Include="Game\Player.inl" />
+    <None Include="Game\Projectile.inl" />
+    <None Include="Input\InputMgr.inl" />
+    <None Include="Math\Matrix.inl" />
+    <None Include="Math\Polygon2.inl" />
+    <None Include="Math\Quaternion.inl" />
+    <None Include="Math\Vector2.inl" />
+    <None Include="Math\Vector3.inl" />
+    <None Include="Network\Server\Server.inl" />
+    <None Include="Phy\Particle.inl" />
+    <None Include="Phy\ParticleContact.inl" />
+    <None Include="Phy\ParticleEngine2D.inl" />
+    <None Include="Phy\ParticleRod.inl" />
+    <None Include="Phy\ParticleRope.inl" />
+    <None Include="Phy\ParticleSpringFG.inl" />
+    <None Include="Phy\ParticleWorld.inl" />
+    <None Include="Phy\RigidBody2d.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common\Interpolator.h" />
+    <ClInclude Include="Common\Types.h" />
+    <ClInclude Include="Common\Utilities.h" />
+    <ClInclude Include="FSM\State.h" />
+    <ClInclude Include="FSM\FSM.h" />
+    <ClInclude Include="Game\Game.h" />
+    <ClInclude Include="Game\GameClient.h" />
+    <ClInclude Include="Game\Player.h" />
+    <ClInclude Include="Game\Projectile.h" />
+    <ClInclude Include="Input\InputMgr.h" />
+    <ClInclude Include="Math\Circle2.h" />
+    <ClInclude Include="Math\Geom2DUtils.h" />
+    <ClInclude Include="Math\MathTypes.h" />
+    <ClInclude Include="Math\MathUtils.h" />
+    <ClInclude Include="Math\Matrix.h" />
+    <ClInclude Include="Math\Plane.h" />
+    <ClInclude Include="Math\Polygon2.h" />
+    <ClInclude Include="Math\Primitives2D.h" />
+    <ClInclude Include="Math\Primitives3D.h" />
+    <ClInclude Include="Math\Quaternion.h" />
+    <ClInclude Include="Math\Vector2.h" />
+    <ClInclude Include="Math\Vector3.h" />
+    <ClInclude Include="Network\Client\Client.h" />
+    <ClInclude Include="Network\Common\NetworkUtils.h" />
+    <ClInclude Include="Network\Common\Packet.h" />
+    <ClInclude Include="Network\Server\Server.h" />
+    <ClInclude Include="Phy\Engine2D.h" />
+    <ClInclude Include="Phy\Engine2DCollisionTypes.h" />
+    <ClInclude Include="Phy\Engine2DIntegrationTypes.h" />
+    <ClInclude Include="Phy\Engine3DTypes.h" />
+    <ClInclude Include="Phy\EngineBase.h" />
+    <ClInclude Include="Phy\EngineBaseTypes.h" />
+    <ClInclude Include="Phy\Particle.h" />
+    <ClInclude Include="Phy\ParticleContact.h" />
+    <ClInclude Include="Phy\ParticleContact2D.h" />
+    <ClInclude Include="Phy\ParticleDragFG.h" />
+    <ClInclude Include="Phy\ParticleEngine2D.h" />
+    <ClInclude Include="Phy\ParticleForceGenerator.h" />
+    <ClInclude Include="Phy\ParticleForceRegistry.h" />
+    <ClInclude Include="Phy\ParticleGravityFG.h" />
+    <ClInclude Include="Phy\ParticleLink.h" />
+    <ClInclude Include="Phy\ParticleRod.h" />
+    <ClInclude Include="Phy\ParticleRope.h" />
+    <ClInclude Include="Phy\ParticleSpringFG.h" />
+    <ClInclude Include="Phy\ParticleWindFG.h" />
+    <ClInclude Include="Phy\ParticleWorld.h" />
+    <ClInclude Include="Phy\PhyMathUtils.h" />
+    <ClInclude Include="Phy\RBContact2D.h" />
+    <ClInclude Include="Phy\RBContact3D.h" />
+    <ClInclude Include="Phy\RBForceGenerator.h" />
+    <ClInclude Include="Phy\RBWorldInterface.h" />
+    <ClInclude Include="Phy\RigidBody2d.h" />
+    <ClInclude Include="Phy\RigidBody3d.h" />
+    <ClInclude Include="Phy\RigidBodyContact.h" />
+    <ClInclude Include="Phy\RigidBodyEngine.h" />
+    <ClInclude Include="Phy\RigidBodyWorld.h" />
+    <ClInclude Include="Phy\WorldBase.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

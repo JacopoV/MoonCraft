@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Mooncraft", "Mooncraft\Mooncraft.vcxproj", "{BEB2AD89-6DAA-4088-9F19-5879434C4C33}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Mooncraft.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEB2AD89-6DAA-4088-9F19-5879434C4C33}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BEB2AD89-6DAA-4088-9F19-5879434C4C33}.Debug|Win32.Build.0 = Debug|Win32
+		{BEB2AD89-6DAA-4088-9F19-5879434C4C33}.Release|Win32.ActiveCfg = Release|Win32
+		{BEB2AD89-6DAA-4088-9F19-5879434C4C33}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
